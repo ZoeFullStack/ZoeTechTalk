@@ -1,4 +1,4 @@
-<!-- under page directory before ！-->
+<!-- under page directory before !-->
 ---
 layout: page
 permalink: /publications/
