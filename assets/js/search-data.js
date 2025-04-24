@@ -2,21 +2,23 @@
 const ninja = document.querySelector('ninja-keys');
 
 // add the home and posts menu items
-ninja.data = [{
-    id: "nav-",
-    title: "",
-    section: "Navigation",
-    handler: () => {
-      window.location.href = "/ZoeTechTalk/";
-    },
-  },{id: "nav-blog",
-          title: "blog",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/ZoeTechTalk/blog/";
-          },
-        },{id: "post-a-post-with-formatting-and-links",
+ninja.data = [
+/*{
+  id: "nav-",
+  title: "",
+  section: "Navigation",
+  handler: () => {
+    window.location.href = "/ZoeTechTalk/";
+  },
+},{
+      id: "nav-blog",
+      title: "blog",
+      description: "",
+      section: "Navigation",
+      handler: () => {
+        window.location.href = "/ZoeTechTalk/blog/index.html";
+      },
+    },*/{id: "post-a-post-with-formatting-and-links",
       
         title: "a post with formatting and links",
       
@@ -27,7 +29,7 @@ ninja.data = [{
           window.location.href = "/ZoeTechTalk/blog/2015/formatting-and-links/";
         
       },
-    },{id: "news-a-simple-inline-announcement",
+    },/**{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
           section: "News",},{id: "news-a-long-announcement-with-details",
@@ -109,4 +111,5 @@ ninja.data = [{
       handler: () => {
         setThemeSetting("system");
       },
-    },];
+    },*/
+];
