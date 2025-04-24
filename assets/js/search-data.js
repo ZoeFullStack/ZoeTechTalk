@@ -18,15 +18,15 @@ ninja.data = [
       handler: () => {
         window.location.href = "/ZoeTechTalk/blog/index.html";
       },
-    },*/{id: "post-a-post-with-formatting-and-links",
+    },*/{id: "post-isolating-test-data-with-transactions-practical-use-of-laravel-factories",
       
-        title: "a post with formatting and links",
+        title: "Isolating Test Data with Transactions: Practical Use of Laravel Factories",
       
-      description: "march &amp; april, looking forward to summer",
+      description: "",
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/ZoeTechTalk/blog/2015/formatting-and-links/";
+          window.location.href = "/ZoeTechTalk/blog/2025/isolating-test-data-with-transactions/";
         
       },
     },/**{id: "news-a-simple-inline-announcement",
